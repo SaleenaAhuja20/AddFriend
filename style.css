@@ -34,16 +34,22 @@ body{
     font-size: 25px;
     margin: 10px 0;
 }
+.text{
+    font-size: 22px;
+    color: darkred;
+    margin: 20px 20px;
+    font-weight: 600;
+}
 .btn{
-    padding: 10px 10px;
+    padding: 12px 20px;
     margin: 20px 0;
     font-size: 18px;
-    border-radius: 10px;
-    border: 1px solid white;
-    background-color: rgb(205, 203, 203);
-    color: #000;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(72, 62, 62);
+    color: white;
     font-weight: 800;
-    transition: all 0.5s ease-in;
+    transition: all 0.41s ease-in;
 }
 .btn:hover{
     cursor: pointer;
