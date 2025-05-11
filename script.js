@@ -6,7 +6,7 @@ let flag = "darkred";
 btn.addEventListener("click", ()=>{
     if(flag === "darkred"){
         text.style.color =  "rgb(63, 107, 189)";
-        btn.innerHTML = "cancel request";
+        btn.innerHTML = "Remove Friend";
         btn.style.backgroundColor = "darkred";
         text.textContent = "Friends";
         flag = "blue";
