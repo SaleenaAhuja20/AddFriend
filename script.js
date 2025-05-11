@@ -13,7 +13,7 @@ btn.addEventListener("click", ()=>{
     }else{
         text.style.color = "darkred";
         btn.innerHTML = "Add Friend";
-        btn.style.backgroundColor = "rgb(63, 107, 189";
+        btn.style.backgroundColor = "rgb(63, 107, 189)";
         text.textContent = "Stranger";
         flag = "darkred";
     }
